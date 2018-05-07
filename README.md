@@ -7,13 +7,13 @@ The algorithm is trained/learns from a given music data set that determine which
 Note: Output is a cell array (named 'music_speech') that contains the name of each file in the first column and its corresponding output (0 for music or 1 for speech) in the second.
 
 ------------------------------------------------------------------------------------------------------------------------------
-***If algorithm training, feature extraction, accuracy evaluation and input audio file classification want to be performed:***
+***If algorithm training, feature extraction, accuracy evaluation and input audio file classification wants to be performed:***
 
 1) Specify the path where input audio files are located, in "Read, process, and classify input audio files" section (**path is './audio' by default**).
 2) Locate 'audio' folder in the same directory as the main script ('music_vs_speech.m'). It contains 39 music and audio files where features are going to be extracted from.
 3) Run the code.
 ------------------------------------------------------------------------------------------------------------------------------
-***If the algorithm is only intended to classify an input audio file:***
+***If only audio file classification wants to be performed:***
 
 1) Specify the path where input audio files are located, in "Read, process, and classify input audio files" section (**path is './audio' by default**).
 2) Locate Matlab .mat files 'evaluation_var.mat' and 'plot_var.mat' in the same directory as the main script ('music_vs_speech.m'). They contain already extracted thresholds and variables to perform the classification and plot results.
